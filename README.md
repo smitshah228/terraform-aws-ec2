@@ -14,6 +14,23 @@ It demonstrates automation, infrastructure as code (IaC) practices, and GitHub-b
 - **AWS CLI** (Command Line Interface)
 - **Git** and **GitHub** (Version Control)
 
+## 🔹 Project Architecture
+
+```plaintext
+GitHub Repository (Source Control)
+        │
+        ▼
+Terraform CLI (Infrastructure as Code)
+        │
+        ▼
+AWS Provider (Authentication)
+        │
+        ▼
+AWS Cloud Infrastructure
+   ├── EC2 Instance (t2.micro, Amazon Linux 2)
+   ├── Tags (Environment: Development)
+   └── Public IP Allocation
+
 ## 🔹 Deployment Instructions
 1. **Clone the repository**
    ```bash
